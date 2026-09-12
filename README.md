@@ -1,5 +1,4 @@
 # Beyond Calibration: Romanization for Closing the Quantization Gap in Multilingual LLMs
-(bugs in code detected)..will be debugged and added soon
 
 <p align="center">
   <strong>Romanization as a simple, calibration-independent strategy for improving multilingual robustness under low-bit quantization.</strong>
@@ -10,6 +9,20 @@
   <br>
   Indian Institute of Technology, Kharagpur
 </p>
+
+---
+
+## Description
+
+This repository accompanies research on **multilingual robustness under low-bit LLM quantization**. We study whether calibration-data mismatch fully explains performance gaps between English and Indic languages, and evaluate **Romanization (via IndicXlit)** as an input-level alternative to calibration-based fixes.
+
+Using **Qwen 3.5 (9B)** and **Gemma 4 (12B-It)** across six languages and five Indic benchmarks, we show that:
+
+- Multilingual quantization gaps persist even under **calibration-free** quantization.
+- **Native + Romanized** prompting improves low-bit accuracy and reduces degradation versus native-script inputs alone.
+- Romanization can match or exceed language-aware AWQ at 4-bit **without model modification, continual pretraining, or language-specific calibration**.
+
+> **Status:** Experimental code and full reproduction scripts are being finalized and will be added soon.
 
 ---
 
