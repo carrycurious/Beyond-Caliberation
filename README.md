@@ -51,7 +51,7 @@ The central finding is that **the multilingual quantization gap persists even wi
 
 ---
 
-## 🔑 Key Findings
+##  Key Findings
 
 ### 1. Calibration is not the sole source of the multilingual quantization gap
 
@@ -122,7 +122,7 @@ Thus, the input-level Romanization strategy slightly outperforms the calibrated 
 
 ---
 
-## 💡 Motivation
+##  Motivation
 
 Quantization compresses model weights and/or activations into lower-precision representations.
 
@@ -193,7 +193,7 @@ against
 
 ---
 
-# ✍️ Input Representations
+#  Input Representations
 
 Each Indic-language evaluation example is evaluated under three prompting strategies.
 
